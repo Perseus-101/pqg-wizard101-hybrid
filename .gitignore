@@ -1,4 +1,5 @@
 __pycache__/
+human_survey_outputs/
 *.pyc
 .env
 .venv/

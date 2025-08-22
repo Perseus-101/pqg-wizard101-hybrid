@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Procedural Quest Generation (Wizard101) — Hybrid Knowledge Grounding"
+repository-code: "https://github.com/Perseus-101/pqg-wizard101-hybrid"
+url: "https://github.com/Perseus-101/pqg-wizard101-hybrid"
+abstract: >
+  Hybrid knowledge-grounded procedural quest generation for Wizard101 using large language
+  models. Compares a schema-only Baseline with an Advanced pipeline that adds structured
+  indexes, retrieval-augmented grounding over lore, and explicit planning, producing
+  schema-valid quest JSON. Includes artefacts for reproducibility.
+authors:
+  - family-names: Binu
+    given-names: Denil
+    affiliation: University of Edinburgh, School of Informatics
+license: MIT
+keywords:
+  - procedural content generation
+  - procedural quest generation
+  - large language models
+  - retrieval-augmented generation
+  - Wizard101
+  - game AI
+version: "1.0.0"
+date-released: "2025-08-22"
+preferred-citation:
+  type: thesis
+  title: "Procedural Quest Generation using Large Language Models (LLMs)"
+  authors:
+    - family-names: Binu
+      given-names: Denil
+  year: 2025
+  month: 8
+  institution: "University of Edinburgh"
+  thesis-type: "Master's thesis"
