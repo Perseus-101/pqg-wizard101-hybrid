@@ -13,7 +13,7 @@ This repository contains the artefacts and code for the dissertation **“Proced
 - `evaluate.py` — Runs the controlled experiment: generates 5 scenarios with both systems, validates JSON against the schema, and saves outputs.
 - `environment.yml` — Exact **Conda** environment (Python 3.10.18) used for the dissertation experiments.
 - `knowledge_base/`
-  - `wizard101_quest_schema.json` — **Canonical quest schema** (stored at the \*\*root of \*\*\`\`).
+  - `wizard101_quest_schema.json` — **Canonical quest schema** (stored at the root of `knowledge_base/`).
   - `wizard_city/indexes_json/` — Structured **indexes** (NPCs, locations, monsters).
   - `wizard_city/lore_md/locations|npcs|story_arcs/` — Markdown **lore** used for RAG.
 - `human_survey_outputs/`
