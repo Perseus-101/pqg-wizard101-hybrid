@@ -11,10 +11,10 @@ This repository contains the artefacts and code for the dissertation **“Proced
 
 - `main.py` — Implements both pipelines (Baseline & Advanced), loads indexes + lore, builds a Chroma vector store, and handles prompts.
 - `evaluate.py` — Runs the controlled experiment: generates 5 scenarios with both systems, validates JSON against the schema, and saves outputs.
-- `environment.yml` — Exact **Conda** environment (Python 3.10.18) used for the dissertation experiments.
+- `environment.yml` — Exact Conda environment (Python 3.10.18) used for the dissertation experiments.
 - `knowledge_base/`
   - `wizard101_quest_schema.json` — Canonical quest schema (stored at the root of `knowledge_base/`).
-  - `wizard_city/indexes_json/` — Structured **indexes** (NPCs, locations, monsters).
+  - `wizard_city/indexes_json/` — Structured indexes (NPCs, locations, monsters).
   - `wizard_city/lore_md/locations|npcs|story_arcs/` — Markdown **lore** used for RAG.
 - `human_survey_outputs/`
   - `advanced_system/` — 5 generated quests (one per scenario).
@@ -27,7 +27,7 @@ This repository contains the artefacts and code for the dissertation **“Proced
 Environment (`environment.yml`):
 
 - Name: `pqg_env`
-- Python: **3.10.18**
+- Python: 3.10.18
 - Key libs:\
   `openai==1.84.0`, `langchain==0.3.25`, `langchain-openai==0.3.21`,\
   `chromadb==1.0.12`, `jsonschema==4.24.0`, `tiktoken==0.9.0`,\
