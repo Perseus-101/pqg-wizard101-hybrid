@@ -1,0 +1,263 @@
+{
+  "wc_npcs": [
+    {
+      "name": "Merle Ambrose",
+      "role": "Headmaster of Ravenwood & Main Quest Giver",
+      "location": "The Commons (Headmaster's Office)",
+      "personality_summary": "A wise, ancient, and powerful wizard who serves as the player's primary guide. He is kind-hearted, patient, and possesses a gentle sense of humor, though he can be serious and commanding when the situation demands it.",
+      "role_in_story": "As the Headmaster of Ravenwood School of Magical Arts, he is a close friend of Gamma and Bartleby and the former teacher of Malistaire Drake."
+    },
+    {
+      "name": "Gamma the Owl",
+      "role": "Assistant to the Headmaster",
+      "location": "The Commons (Headmaster's Office)",
+      "personality_summary": "Intelligent, a bit formal, and fiercely loyal to Headmaster Ambrose. Gamma is often the one to handle the more practical and administrative aspects of running Ravenwood.",
+      "role_in_story": "The faithful companion and assistant to Merle Ambrose at the Ravenwood School of Magical Arts."
+    },
+    {
+      "name": "Bartleby",
+      "role": "The Living Heart of Wizard City",
+      "location": "Ravenwood",
+      "personality_summary": "Ancient, wise, and speaks in a slow, thoughtful manner. Bartleby is the source of much of the magic in Wizard City and holds a deep, ancient knowledge of the Spiral.",
+      "role_in_story": "A central figure in the creation of the Spiral, he is the living heart of Wizard City and a source of ancient wisdom."
+    },
+    {
+      "name": "Cyrus Drake",
+      "role": "Professor of Myth",
+      "location": "Ravenwood (School of Myth)",
+      "personality_summary": "Cynical, sarcastic, and perpetually unimpressed. Professor Drake is a brilliant but difficult teacher who believes in pushing his students to their absolute limits. Beneath his harsh exterior lies a genuine, albeit well-hidden, concern for his students.",
+      "role_in_story": "The Professor of Myth at Ravenwood and the brother of the main antagonist, Malistaire Drake."
+    },
+    {
+      "name": "Dalia Falmea",
+      "role": "Professor of Fire",
+      "location": "Ravenwood (School of Fire)",
+      "personality_summary": "Passionate, energetic, and encouraging. Professor Falmea embodies the spirit of the Fire School. She is enthusiastic about her students' progress and is a firm believer in the power of will and determination.",
+      "role_in_story": "The Professor for the School of Fire at Ravenwood."
+    },
+    {
+      "name": "Halston Balestrom",
+      "role": "Professor of Storm",
+      "location": "Ravenwood (School of Storm)",
+      "personality_summary": "Eccentric, brilliant, and somewhat absent-minded. Professor Balestrom is a master of Storm magic and a gifted inventor, though he can sometimes get lost in his own thoughts and experiments.",
+      "role_in_story": "The Professor for the School of Storm at Ravenwood."
+    },
+    {
+      "name": "Lydia Greyrose",
+      "role": "Professor of Ice",
+      "location": "Ravenwood (School of Ice)",
+      "personality_summary": "Calm, composed, and motherly. Professor Greyrose is a patient and nurturing teacher who emphasizes the importance of defense and resilience. She is a comforting presence in Ravenwood.",
+      "role_in_story": "The Professor for the School of Ice at Ravenwood."
+    },
+    {
+      "name": "Moolinda Wu",
+      "role": "Professor of Life",
+      "location": "Ravenwood (School of Life)",
+      "personality_summary": "Gentle, serene, and deeply connected to nature. Professor Wu is a kind and compassionate teacher who instructs her students on the importance of healing and harmony.",
+      "role_in_story": "The Professor for the School of Life at Ravenwood."
+    },
+    {
+      "name": "Dworgyn",
+      "role": "Caretaker and Professor of Death",
+      "location": "Nightside (School of Death)",
+      "personality_summary": "Timid, slightly goofy, and well-meaning. Dworgyn was Malistaire's former assistant and is initially hesitant to take on the role of professor. He is good-natured and genuinely wants to help the students of the Death school.",
+      "role_in_story": "The Professor for the School of Death and the former assistant to Malistaire Drake."
+    },
+    {
+      "name": "Alhazred",
+      "role": "Professor of Balance",
+      "location": "Krokotopia (Initially met via quest from Ambrose)",
+      "personality_summary": "Wise, formal, and a master of Balance magic. While his school is not physically in Ravenwood, he is introduced by Ambrose and serves as the Balance school professor.",
+      "role_in_story": "The Professor for the School of Balance, who guides students from his home in Krokotopia."
+    },
+    {
+      "name": "Malorn Ashthorn",
+      "role": "Substitute Teacher of Death",
+      "location": "Golem Court",
+      "personality_summary": "A more traditional and serious Death magic practitioner. He initially guides young Necromancers before they are introduced to Dworgyn. He is knowledgeable and direct.",
+      "role_in_story": "A student of the School of Death who acts as the initial guide for new Necromancers."
+    },
+    {
+      "name": "Sergeant Muldoon",
+      "role": "Guard Captain and Quest Giver",
+      "location": "Olde Town",
+      "personality_summary": "Gruff, by-the-book, and dedicated to his duty. Sergeant Muldoon is in charge of the guards of Olde Town and is concerned with maintaining order. He's the gatekeeper to the troubled streets.",
+      "role_in_story": "The captain of the Wizard City Guard, responsible for maintaining order and directing wizards to the city's trouble spots."
+    },
+    {
+      "name": "Gloria Krendell",
+      "role": "Quest Giver",
+      "location": "Olde Town",
+      "personality_summary": "A kind elderly woman with a sharp memory. Gloria Krendell holds important information about Sylvia Drake. She is gentle and asks for the player's help in retrieving a cherished scrapbook.",
+      "role_in_story": "A resident of Olde Town and a close friend of the late Sylvia Drake, Malistaire's wife."
+    },
+    {
+      "name": "Private Connelly",
+      "role": "Quest Giver",
+      "location": "Unicorn Way",
+      "personality_summary": "A nervous and overwhelmed guard. Private Connelly is stationed at the entrance to Unicorn Way and is struggling to deal with the sudden outbreak of dark magic.",
+      "role_in_story": "A member of the Wizard City Guard stationed on Unicorn Way."
+    },
+    {
+      "name": "Ceren Nightchant",
+      "role": "Quest Giver and Student",
+      "location": "Unicorn Way",
+      "personality_summary": "A studious and concerned Life student. Ceren was sent by Professor Wu to investigate the corruption on Unicorn Way. He is brave but acknowledges his own limitations.",
+      "role_in_story": "A student of the School of Life, sent by his teacher Moolinda Wu to investigate Unicorn Way."
+    },
+    {
+      "name": "Lady Oriel",
+      "role": "Fairy Queen",
+      "location": "Unicorn Way (Hedge Maze)",
+      "personality_summary": "Regal, worried, and grateful. Lady Oriel is the queen of the fairies on Unicorn Way and is deeply troubled by the dark magic affecting her subjects.",
+      "role_in_story": "The queen of the fairies and the primary victim of Lady Blackhope's curse on Unicorn Way."
+    },
+    {
+      "name": "Artur Gryphonbane",
+      "role": "Quest Giver and Student",
+      "location": "Triton Avenue",
+      "personality_summary": "A young and determined Storm student. Artur is trying to help the residents of Triton Avenue who are being terrorized by the undead. He is worried about his sister, Suzie.",
+      "role_in_story": "A student of the School of Storm and the brother of Suzie Gryphonbane."
+    },
+    {
+      "name": "Suzie Gryphonbane",
+      "role": "Quest NPC",
+      "location": "Triton Avenue",
+      "personality_summary": "Brave and resourceful. Suzie is captured by the forces on Triton Avenue but remains defiant. She is grateful to be rescued and is a capable young witch.",
+      "role_in_story": "A student of the School of Storm and the sister of Artur Gryphonbane, who is captured by the undead."
+    },
+    {
+      "name": "Duncan Grimwater",
+      "role": "Quest Giver and Ambitious Student",
+      "location": "Triton Avenue",
+      "personality_summary": "Arrogant, ambitious, and a bit shady. Duncan is a Death student who seems more interested in gaining power than in helping people. He has a thinly veiled admiration for Malistaire's power.",
+      "role_in_story": "A student of the School of Death who offers quests on Triton Avenue."
+    },
+    {
+      "name": "Blad Raveneye",
+      "role": "Quest Giver",
+      "location": "Triton Avenue (Four Falls Mill)",
+      "personality_summary": "A hardworking and concerned miller. Blad is the owner of the Four Falls Mill and is troubled by the undead infestation that is disrupting his business.",
+      "role_in_story": "A resident of Triton Avenue and owner of the Four Falls Mill."
+    },
+    {
+      "name": "Nolan Stormgate",
+      "role": "Quest Giver",
+      "location": "Cyclops Lane",
+      "personality_summary": "A worried and responsible student. Nolan is trying to find his missing friends who were captured by the cyclopes on Cyclops Lane.",
+      "role_in_story": "A student of Ravenwood who initiates the quest to free Cyclops Lane."
+    },
+    {
+      "name": "Romulus",
+      "role": "Quest NPC",
+      "location": "Cyclops Lane",
+      "personality_summary": "A wise and ancient being who provides guidance. Romulus is a ghost who offers cryptic but helpful advice to the player on how to deal with the cyclopes.",
+      "role_in_story": "A spirit of Cyclops Lane who provides guidance to the wizard."
+    },
+    {
+      "name": "Private Quinn",
+      "role": "Quest Giver",
+      "location": "Firecat Alley",
+      "personality_summary": "A determined but outmatched guard. Private Quinn is trying to hold the line against the fire elves and other fiery creatures that have taken over Firecat Alley.",
+      "role_in_story": "A member of the Wizard City Guard stationed in Firecat Alley."
+    },
+    {
+      "name": "Alicane Swiftarrow",
+      "role": "Quest Giver and Prince of the Fire Elves",
+      "location": "Firecat Alley (Fireglobe Theatre)",
+      "personality_summary": "Noble, desperate, and hopeful. Alicane is the prince of the fire elves and is seeking a cure for the curse that has afflicted his people.",
+      "role_in_story": "The prince of the Fire Elves, who are the primary victims of the curse in Firecat Alley."
+    },
+    {
+      "name": "Gretta Darkkettle",
+      "role": "Quest Giver",
+      "location": "Firecat Alley",
+      "personality_summary": "A seemingly helpful but ultimately treacherous witch. Gretta initially appears to be an ally but is later revealed to have her own dark agenda. She is cunning and manipulative.",
+      "role_in_story": "A witch secretly aligned with dark forces who manipulates the player in Firecat Alley."
+    },
+    {
+      "name": "Mortis",
+      "role": "The Death Tree",
+      "location": "Nightside",
+      "personality_summary": "A somber and ancient tree spirit. Mortis resides in the dark and melancholic realm of Nightside. He is a source of knowledge and power for Necromancers.",
+      "role_in_story": "The ancient spirit tree of the School of Death."
+    },
+    {
+      "name": "Prospector Zeke",
+      "role": "Exploration Quest Giver",
+      "location": "The Commons",
+      "personality_summary": "Adventurous, friendly, and always on the move. Prospector Zeke is a seasoned explorer who tasks the player with finding various hidden items throughout each world.",
+      "role_in_story": "An explorer of the Spiral who is always accompanied by his wife, Eloise Merryweather."
+    },
+    {
+      "name": "Eloise Merryweather",
+      "role": "Clothing and Stitching Vendor",
+      "location": "The Commons",
+      "personality_summary": "Creative, resourceful, and supportive of her husband's adventures. Eloise provides wizards with a way to customize their appearance through stitching.",
+      "role_in_story": "A seamstress of the Spiral and the ever-present, patient wife of Prospector Zeke."
+    },
+    {
+      "name": "Harold Argleston",
+      "role": "Librarian",
+      "location": "The Commons (Wizard City Library)",
+      "personality_summary": "A knowledgeable and dedicated librarian who assists players with information and quests related to the lore of the Spiral.",
+      "role_in_story": "The head librarian for the Ravenwood School of Magical Arts."
+    },
+    {
+      "name": "Mr. Lincoln",
+      "role": "Reagent Vendor",
+      "location": "The Commons",
+      "personality_summary": "A cheerful and helpful shopkeeper. Mr. Lincoln is always ready to assist young wizards with their reagent needs for crafting and other magical pursuits.",
+      "role_in_story": "A merchant in The Commons specializing in crafting reagents."
+    },
+    {
+      "name": "Hilda Brewer",
+      "role": "Potion Vendor",
+      "location": "The Commons (Fairegrounds)",
+      "personality_summary": "A friendly vendor who helps wizards replenish their health and mana potions, essential for surviving tough battles.",
+      "role_in_story": "A merchant in The Commons specializing in potions."
+    },
+    {
+      "name": "Diego the Duelmaster",
+      "role": "PvP Master and Trainer",
+      "location": "Unicorn Way (Arena)",
+      "personality_summary": "A confident and skilled duelist who introduces players to the world of Player vs. Player combat. He is a master of strategy and encourages fair play.",
+      "role_in_story": "The master of the Dueling Arena, responsible for training wizards in PvP combat."
+    },
+    {
+      "name": "Reginald Baxby",
+      "role": "Wand Shopkeeper",
+      "location": "Shopping District",
+      "personality_summary": "A professional and knowledgeable vendor of magical wands. He helps wizards choose the right focus for their magical abilities.",
+      "role_in_story": "A merchant in the Shopping District specializing in wands."
+    },
+    {
+      "name": "Mildred Farseer",
+      "role": "Hat Shopkeeper",
+      "location": "Shopping District",
+      "personality_summary": "A vendor with a keen eye for magical headwear. She offers a variety of hats that provide both protection and style.",
+      "role_in_story": "A merchant in the Shopping District specializing in hats."
+    },
+    {
+      "name": "Charles Taffy",
+      "role": "Robe Shopkeeper",
+      "location": "Shopping District",
+      "personality_summary": "A friendly tailor who sells a wide array of magical robes. He ensures every wizard is properly outfitted for their adventures.",
+      "role_in_story": "A merchant in the Shopping District specializing in robes."
+    },
+    {
+      "name": "Zoe",
+      "role": "Deck Shopkeeper",
+      "location": "Shopping District",
+      "personality_summary": "A specialist in magical decks, helping wizards organize their spells for effective combat. She is practical and helpful.",
+      "role_in_story": "A merchant in the Shopping District specializing in decks."
+    },
+    {
+      "name": "Shade of Malistaire",
+      "role": "Story Exposition NPC",
+      "location": "Dark Cave",
+      "personality_summary": "A sorrowful and angry echo of the man Malistaire once was. This shade reveals the tragic motivation behind his turn to darkness – the death of his wife, Sylvia. He is not a combatant, but a key narrative figure.",
+      "role_in_story": "An echo of Malistaire Drake, husband of the late Sylvia Drake, who provides the final piece of exposition for the Wizard City storyline."
+    }
+  ]
+}

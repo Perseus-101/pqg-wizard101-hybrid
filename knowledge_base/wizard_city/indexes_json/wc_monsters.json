@@ -1,0 +1,180 @@
+{
+  "wc_monsters": [
+    {
+      "name": "Lost Soul",
+      "type": "Mob",
+      "location": "Unicorn Way, Triton Avenue, Haunted Cave",
+      "school_of_magic": "Death",
+      "personality_summary": "Mindless and sorrowful spectral beings that lash out at any living creature they encounter. They are the most basic form of undead haunting the streets of Wizard City.",
+      "role_in_story": "The most common foot soldier of the Undead Army, indirectly serving leaders like Lady Blackhope and Lord Nightshade."
+    },
+    {
+      "name": "Skeletal Pirate",
+      "type": "Mob",
+      "location": "Unicorn Way, Triton Avenue",
+      "school_of_magic": "Death",
+      "personality_summary": "Reanimated pirates who retain a semblance of their former combat skills. They are disciplined guards, mindlessly loyal to their necromantic masters and tougher than common skeletons.",
+      "role_in_story": "A member of the Undead Army, directly serving as a guard for Lady Blackhope on Unicorn Way."
+    },
+    {
+      "name": "Rattlebones",
+      "type": "Boss",
+      "location": "Unicorn Way (Rattlebones' Tower)",
+      "school_of_magic": "Death",
+      "personality_summary": "An arrogant and surprisingly powerful skeletal necromancer. He considers himself a significant threat and serves as the first major test of a new wizard's abilities, taunting them throughout the duel.",
+      "role_in_story": "A lieutenant and notable field commander in Malistaire's forces. He serves as the first major boss encounter for a new wizard."
+    },
+    {
+      "name": "Lady Blackhope",
+      "type": "Boss",
+      "location": "Unicorn Way (Blackhope's Tower)",
+      "school_of_magic": "Death",
+      "personality_summary": "A cruel and powerful necromancer with a specific goal: to corrupt the life magic of Unicorn Way. She is focused and malicious, directly responsible for the suffering of the fairies and the undead infestation.",
+      "role_in_story": "A lieutenant in Malistaire's forces who commands the undead on Unicorn Way. Her primary role is to corrupt the street's life magic, putting her in direct opposition to Lady Oriel."
+    },
+    {
+      "name": "Tower Golem",
+      "type": "Mob",
+      "location": "Golem Court (Golem Tower)",
+      "school_of_magic": "Varies (Myth, Fire, Ice, etc.)",
+      "personality_summary": "Mindless, magical constructs created for a single purpose: to guard the Golem Tower. They are relentless and attack any intruder, serving as a controlled test for young wizards.",
+      "role_in_story": "A training construct created by the Ravenwood Professors to serve as a trial for their students in the Golem Tower."
+    },
+    {
+      "name": "Haunted Minion",
+      "type": "Mob",
+      "location": "Triton Avenue",
+      "school_of_magic": "Death",
+      "personality_summary": "More focused and aggressive than Lost Souls, these spectral minions actively patrol and terrorize Triton Avenue. They are the common foot soldiers of the undead occupation.",
+      "role_in_story": "A common soldier in the Undead Army, directly serving the bosses of Triton Avenue like Foulgaze and Sergeant Skull-splitter."
+    },
+    {
+      "name": "Sergeant Skull-splitter",
+      "type": "Boss",
+      "location": "Triton Avenue (Skull-splitter's Arena)",
+      "school_of_magic": "Death",
+      "personality_summary": "A brutal and disciplined skeletal warrior. As an officer, he is more cunning than the average undead and takes pride in his role as a jailer and enforcer for Nightshade's army.",
+      "role_in_story": "An officer in Malistaire's forces serving under Lord Nightshade. His primary role is to hold Suzie Gryphonbane captive."
+    },
+    {
+      "name": "Foulgaze",
+      "type": "Boss",
+      "location": "Triton Avenue (Foulgaze's Tower)",
+      "school_of_magic": "Myth",
+      "personality_summary": "A dim-witted but powerful Cyclops who seems to enjoy his role as a gatekeeper. He is more of a brute force obstacle than a strategic mastermind, allied with the undead out of convenience or orders.",
+      "role_in_story": "A member of the Cyclops Army sent by General Akilles to aid the undead forces on Triton Avenue."
+    },
+    {
+      "name": "Cyclops Legionnaire",
+      "type": "Mob",
+      "location": "Cyclops Lane",
+      "school_of_magic": "Myth",
+      "personality_summary": "The common soldiers of the Cyclops army. They follow orders without question, using their brute strength to occupy Cyclops Lane and capture anyone who gets in their way.",
+      "role_in_story": "A common soldier in the Cyclops Army, serving under the command of General Akilles."
+    },
+    {
+      "name": "Cyclops Enforcer",
+      "type": "Mob",
+      "location": "Cyclops Lane",
+      "school_of_magic": "Myth",
+      "personality_summary": "Elite soldiers within the Cyclops army. They are more disciplined and powerful than the legionnaires, entrusted with guarding important locations and prisoners.",
+      "role_in_story": "An elite soldier in the Cyclops Army, serving directly under General Akilles."
+    },
+    {
+      "name": "General Akilles",
+      "type": "Boss",
+      "location": "Cyclops Lane (Festival Park)",
+      "school_of_magic": "Myth",
+      "personality_summary": "A leader bound by a strict, if simple, code of honor. He is not malicious, but follows his orders to the letter. He respects strength and will yield if defeated in a fair fight.",
+      "role_in_story": "The leader of the Cyclops Army occupying Cyclops Lane. He commands all Cyclops Legionnaires and Enforcers in the area."
+    },
+    {
+      "name": "Firecat",
+      "type": "Mob",
+      "location": "Firecat Alley",
+      "school_of_magic": "Fire",
+      "personality_summary": "Mischievous and wild elemental creatures. They are territorial and aggressive, embodying the untamed nature of the fire magic that has corrupted Firecat Alley.",
+      "role_in_story": "An independent creature corrupted by the dark magic in Firecat Alley, serving as a common obstacle."
+    },
+    {
+      "name": "Fire Elf",
+      "type": "Mob",
+      "location": "Firecat Alley",
+      "school_of_magic": "Fire",
+      "personality_summary": "Once noble, now aggressive and tormented beings under a curse. They attack out of pain and corruption rather than pure malice, desperate for a cure they cannot find themselves.",
+      "role_in_story": "A cursed resident of Firecat Alley and a subject of Prince Alicane Swiftarrow."
+    },
+    {
+      "name": "Magma Man",
+      "type": "Mob",
+      "location": "Firecat Alley",
+      "school_of_magic": "Fire",
+      "personality_summary": "Slow, powerful, and mindless elemental enforcers. They are constructs of raw fire and earth, serving as brute force for the powers corrupting the alley.",
+      "role_in_story": "A magical construct serving as a minion for Bastilla Gravewynd."
+    },
+    {
+      "name": "Bastilla Gravewynd",
+      "type": "Boss",
+      "location": "Firecat Alley (Fireglobe Theatre)",
+      "school_of_magic": "Death",
+      "personality_summary": "A cunning and cruel sorceress who delights in the suffering she causes. She is the mastermind behind the curse on the Fire Elves and a loyal lieutenant to Lord Nightshade.",
+      "role_in_story": "A lieutenant in Malistaire's forces serving Lord Nightshade. Her primary role is to oversee the corruption of the Fire Elves, placing her in direct opposition to Prince Alicane Swiftarrow."
+    },
+    {
+      "name": "Field Guard",
+      "type": "Mob",
+      "location": "Haunted Cave",
+      "school_of_magic": "Death",
+      "personality_summary": "Eerie and silent skeletal soldiers with a distinct pumpkin-like head. They are the loyal guards of the Haunted Cave, serving their master without question.",
+      "role_in_story": "A soldier in the Undead Army, serving as a loyal minion to the Harvest Lord."
+    },
+    {
+      "name": "The Harvest Lord",
+      "type": "Boss",
+      "location": "Haunted Cave",
+      "school_of_magic": "Death",
+      "personality_summary": "A powerful and imposing spectral being who acts as the warden of the Haunted Cave. He is a major obstacle, designed to keep intruders away from Lord Nightshade's sanctum.",
+      "role_in_story": "An officer in Malistaire's forces and the chief guardian of the Haunted Cave, serving Lord Nightshade."
+    },
+    {
+      "name": "Lord Nightshade",
+      "type": "Boss",
+      "location": "Haunted Cave (Stormdrain Tower)",
+      "school_of_magic": "Death",
+      "personality_summary": "Arrogant, theatrical, and powerful. He sees himself as the king of the dead in Wizard City and is utterly confident in his necromantic power. He is Malistaire's chief agent in the area.",
+      "role_in_story": "Malistaire's primary lieutenant and high commander of the undead forces in Wizard City. He commands the Harvest Lord, Bastilla Gravewynd, and other undead leaders."
+    },
+    {
+      "name": "Spectral Guardian",
+      "type": "Mob",
+      "location": "Nightside (Dark Cave)",
+      "school_of_magic": "Death",
+      "personality_summary": "A powerful and solemn spirit bound to guard Malistaire's final sanctuary in Wizard City. It is not talkative or malicious, but exists purely as a final, powerful test for the wizard.",
+      "role_in_story": "The final guardian of Malistaire's sanctum in the Dark Cave, serving as the last obstacle in the Wizard City main questline."
+    },
+    {
+      "name": "Death Scarab",
+      "type": "Mob",
+      "location": "Nightside",
+      "school_of_magic": "Death",
+      "personality_summary": "Aggressive and territorial insects teeming with death magic. They are natural inhabitants of Nightside, drawn to its dark energies and hostile to all intruders.",
+      "role_in_story": "A natural creature of Nightside, unaffiliated with other factions."
+    },
+    {
+      "name": "Ghoul",
+      "type": "Mob",
+      "location": "Nightside",
+      "school_of_magic": "Death",
+      "personality_summary": "Mindless, shambling corpses animated by raw death magic. They lack any intelligence or strategy, attacking purely on instinct. They represent the most basic form of necromancy.",
+      "role_in_story": "A common, unaffiliated undead creature found in areas rich with death magic."
+    },
+    {
+      "name": "The Grubb",
+      "type": "Boss",
+      "location": "Nightside (The Sunken City - Side Quest)",
+      "school_of_magic": "Death",
+      "personality_summary": "A grotesque and powerful undead monstrosity lurking in the depths of the Sunken City. He is a significant local threat, more powerful than the common undead, and guards his domain jealously.",
+      "role_in_story": "An independent undead boss who rules over the side-quest area of the Sunken City."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "wc_locations": [
+    {
+      "name": "The Commons",
+      "world": "Wizard City",
+      "story_relevance": "The central hub of Wizard City. It's where the player's journey begins, receiving their main quest from Headmaster Ambrose. It serves as a safe zone and a gateway to Ravenwood, the Shopping District, and Olde Town.",
+      "mobs_found": [],
+      "npcs_found": [
+        "Merle Ambrose",
+        "Gamma the Owl",
+        "Harold Argleston",
+        "Mr. Lincoln",
+        "Prospector Zeke",
+        "Eloise Merryweather",
+        "Hilda Brewer"
+      ],
+      "description": "A bustling and vibrant town square, filled with student wizards, shops, and magical wonders. The Commons is the social and academic heart of the city, with the grand library, the Headmaster's tower, and the lively Fairegrounds."
+    },
+    {
+      "name": "Ravenwood",
+      "world": "Wizard City",
+      "story_relevance": "The campus of the Ravenwood School of Magical Arts. Players meet their school's professor here, learn new spells, and interact with the ancient Grandfather Tree, Bartleby, who is central to the Spiral's health.",
+      "mobs_found": [],
+      "npcs_found": [
+        "Bartleby",
+        "Cyrus Drake",
+        "Dalia Falmea",
+        "Halston Balestrom",
+        "Lydia Greyrose",
+        "Moolinda Wu",
+        "Alhazred (via quest)"
+      ],
+      "description": "A serene and magical campus organized around the colossal Grandfather Tree, Bartleby. Each of the main schools of magic has its own dedicated area, reflecting its elemental theme."
+    },
+    {
+      "name": "Shopping District",
+      "world": "Wizard City",
+      "story_relevance": "The primary commercial hub where players can buy and sell equipment like wands, hats, robes, and decks. It's a necessary stop for any wizard looking to upgrade their gear.",
+      "mobs_found": [],
+      "npcs_found": [
+        "Wand Shopkeeper",
+        "Hat Shopkeeper",
+        "Robe Shopkeeper",
+        "Deck Shopkeeper",
+        "Reagent Vendor"
+      ],
+      "description": "A busy, colorful street lined with various shops catering to every wizard's needs. The atmosphere is commercial and lively, with shopkeepers eagerly awaiting customers."
+    },
+    {
+      "name": "Olde Town",
+      "world": "Wizard City",
+      "story_relevance": "The gateway to the more dangerous, outer streets of Wizard City. This is where the player is first tasked by Sergeant Muldoon to investigate the troubles plaguing the city, officially beginning the main conflict.",
+      "mobs_found": [],
+      "npcs_found": [
+        "Sergeant Muldoon",
+        "Gloria Krendell"
+      ],
+      "description": "An older, more residential part of the city that acts as a buffer between the safe central areas and the monster-infested streets. It has a cautious and slightly tense atmosphere."
+    },
+    {
+      "name": "Unicorn Way",
+      "world": "Wizard City",
+      "story_relevance": "The first combat area for a new wizard. The street, once peaceful, has been corrupted by Lady Blackhope's death magic. The player must defeat her and Rattlebones to restore peace and rescue Lady Oriel.",
+      "mobs_found": [
+        "Lost Soul",
+        "Skeletal Pirate",
+        "Rattlebones",
+        "Lady Blackhope"
+      ],
+      "npcs_found": [
+        "Private Connelly",
+        "Ceren Nightchant",
+        "Lady Oriel",
+        "Diego the Duelmaster"
+      ],
+      "description": "A once-beautiful street with a large park and hedge maze, now shrouded in a gloomy, purple haze. The corruption of its life magic is visible, with twisted trees and aggressive, formerly peaceful creatures."
+    },
+    {
+      "name": "Golem Court",
+      "world": "Wizard City",
+      "story_relevance": "The location of the Golem Tower, where young wizards of all schools are sent for their level 5 quest to prove their worth and earn a new spell from their professor.",
+      "mobs_found": [
+        "Tower Golem"
+      ],
+      "npcs_found": [
+        "Malorn Ashthorn"
+      ],
+      "description": "A small, secluded courtyard dominated by the imposing Golem Tower. It's a quiet, academic area used primarily for student trials and is also where the substitute Death professor resides."
+    },
+    {
+      "name": "Triton Avenue",
+      "world": "Wizard City",
+      "story_relevance": "A street overrun by the undead and allied cyclopes. The player is tasked with rescuing captured students and stopping the undead menace led by Sergeant Skull-splitter and Foulgaze.",
+      "mobs_found": [
+        "Haunted Minion",
+        "Skeletal Pirate",
+        "Sergeant Skull-splitter",
+        "Foulgaze"
+      ],
+      "npcs_found": [
+        "Artur Gryphonbane",
+        "Suzie Gryphonbane",
+        "Duncan Grimwater",
+        "Blad Raveneye"
+      ],
+      "description": "A perpetually rainy and thundery street themed after the Storm school. Canals run alongside the main path, and the large Four Falls Mill is a central landmark, now infested with the undead."
+    },
+    {
+      "name": "Firecat Alley",
+      "world": "Wizard City",
+      "story_relevance": "This alley is home to the Fire Elves, who have been cursed by Bastilla Gravewynd. The player must work with Prince Alicane to find a cure and defeat the necromancer.",
+      "mobs_found": [
+        "Firecat",
+        "Fire Elf",
+        "Magma Man",
+        "Bastilla Gravewynd"
+      ],
+      "npcs_found": [
+        "Private Quinn",
+        "Alicane Swiftarrow",
+        "Gretta Darkkettle"
+      ],
+      "description": "A hot, volcanic-themed street filled with pools of lava and scorched earth. The atmosphere is oppressive and fiery, reflecting the curse that has befallen its inhabitants."
+    },
+    {
+      "name": "Cyclops Lane",
+      "world": "Wizard City",
+      "story_relevance": "This street has been occupied by an army of cyclopes led by the honorable General Akilles. The player must infiltrate their ranks, rescue captured students, and defeat the General to liberate the lane.",
+      "mobs_found": [
+        "Cyclops Legionnaire",
+        "Cyclops Enforcer",
+        "General Akilles"
+      ],
+      "npcs_found": [
+        "Nolan Stormgate",
+        "Romulus"
+      ],
+      "description": "A street with ancient, myth-themed architecture, now turned into a military encampment for the cyclops army. Tents and barricades line the path leading to the grand Festival Park."
+    },
+    {
+      "name": "Haunted Cave",
+      "world": "Wizard City",
+      "story_relevance": "The treacherous path leading to Lord Nightshade's lair. The player must fight through his guardians, the Harvest Lord and his Field Guards, to reach the final confrontation.",
+      "mobs_found": [
+        "Field Guard",
+        "The Harvest Lord",
+        "Lord Nightshade"
+      ],
+      "npcs_found": [],
+      "description": "A spooky, dimly lit cave system with an eerie, Halloween-like atmosphere. Jack-o'-lanterns and spectral energy light the way to Stormdrain Tower, the final dungeon of the main questline."
+    },
+    {
+      "name": "Nightside",
+      "world": "Wizard City",
+      "story_relevance": "The hidden realm where the Death School resides after Malistaire ripped it from Ravenwood. It's a place of dark magic where players meet Professor Dworgyn and conclude the main story in the Dark Cave.",
+      "mobs_found": [
+        "Death Scarab",
+        "Ghoul",
+        "The Grubb"
+      ],
+      "npcs_found": [
+        "Dworgyn",
+        "Mortis"
+      ],
+      "description": "A dark, gloomy cavern perpetually shrouded in twilight. It is home to the Death School, the Sunken City, and is filled with tombstones and wandering spirits, embodying the essence of Death magic."
+    },
+    {
+      "name": "Dark Cave",
+      "world": "Wizard City",
+      "story_relevance": "The final instance of the Wizard City main questline. After defeating Lord Nightshade, the player enters this cave to confront a shade of Malistaire and learn of his motivations, setting up the next world.",
+      "mobs_found": [
+        "Spectral Guardian"
+      ],
+      "npcs_found": [
+        "Shade of Malistaire"
+      ],
+      "description": "A small, ethereal cavern where the memory and grief of Malistaire linger. It serves as an epilogue to the Wizard City story, providing crucial exposition for the journey ahead."
+    }
+  ]
+}

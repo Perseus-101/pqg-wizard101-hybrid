@@ -1,0 +1,128 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Wizard101 Quest",
+    "description": "A schema for defining a quest within the world of Wizard101, based on its established lore and mechanics.",
+    "type": "object",
+    "properties": {
+      "questID": {
+        "description": "A unique identifier for the quest.",
+        "type": "string",
+        "examples": ["WC_MSQ_05", "KT_SQ_LizardTrouble"]
+      },
+      "questTitle": {
+        "description": "The official name of the quest as it would appear to the player.",
+        "type": "string"
+      },
+      "questType": {
+        "description": "The category of the quest.",
+        "type": "string",
+        "enum": ["Main Story Quest", "Side Quest", "School Quest"]
+      },
+      "levelRequirement": {
+        "description": "The suggested player level for undertaking this quest.",
+        "type": "integer",
+        "minimum": 1
+      },
+      "world": {
+          "description": "The world in The Spiral where the quest takes place.",
+          "type": "string",
+          "enum": ["Wizard City", "Krokotopia", "Marleybone", "Mooshu", "Dragonspyre"]
+      },
+      "questGiver": {
+        "description": "The NPC who assigns the quest to the player.",
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "location": { "type": "string", "description": "The specific area where the NPC is found." }
+        },
+        "required": ["name", "location"]
+      },
+      "dialogue": {
+          "description": "Dialogue exchanges for the quest.",
+          "type": "object",
+          "properties": {
+              "start": {
+                  "description": "The initial dialogue from the quest giver when offering the quest.",
+                  "type": "string"
+              },
+              "end": {
+                  "description": "The concluding dialogue from the quest giver upon completion.",
+                  "type": "string"
+              },
+              "reminder": {
+                  "description": "A brief summary of the current objective, for the quest log.",
+                  "type": "string"
+              }
+          },
+          "required": ["start", "end", "reminder"]
+      },
+      "objectives": {
+        "description": "An ordered list of tasks the player must complete.",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["talk", "defeat", "collect", "interact", "dungeon"]
+            },
+            "description": {
+              "description": "A brief player-facing description of the task (e.g., 'Talk to Sergeant Muldoon').",
+              "type": "string"
+            },
+            "target": {
+              "description": "The specific person, creature, or object of the objective.",
+              "type": "string"
+            },
+            "location": {
+              "description": "The area where the objective must be completed.",
+              "type": "string"
+            },
+            "quantity": {
+              "description": "The number of items to collect or enemies to defeat.",
+              "type": "integer",
+              "minimum": 1
+            },
+            "collects": {
+              "description": "The name of the item to be collected from the target.",
+              "type": "string"
+            }
+          },
+          "required": ["type", "description", "target", "location"]
+        }
+      },
+      "rewards": {
+        "description": "The rewards granted to the player upon quest completion.",
+        "type": "object",
+        "properties": {
+          "experience": { "type": "integer" },
+          "gold": { "type": "integer" },
+          "gear": {
+            "type": "array",
+            "description": "A selection of gear items offered as a reward.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "itemName": { "type": "string" },
+                "itemType": { "type": "string", "enum": ["Hat", "Robe", "Boots", "Wand", "Athame", "Amulet", "Ring"] }
+              },
+              "required": ["itemName", "itemType"]
+            }
+          }
+        },
+        "required": ["experience", "gold"]
+      }
+    },
+    "required": [
+      "questID",
+      "questTitle",
+      "questType",
+      "levelRequirement",
+      "world",
+      "questGiver",
+      "dialogue",
+      "objectives",
+      "rewards"
+    ]
+  }
+  
